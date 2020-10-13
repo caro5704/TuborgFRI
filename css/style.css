@@ -29,6 +29,7 @@ h2 {
     margin: auto;
     overflow: hidden;
     padding: 0 3rem;
+    flex-basis: 300px;
 }
 
 .showcase {
@@ -36,6 +37,8 @@ h2 {
     color: black;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .showcase:before {
@@ -144,6 +147,8 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 
+
+
 }
 
 .some {
@@ -153,13 +158,16 @@ h2 {
 
 
     /*  GØR INGEN TING  */
-    justify-content: center;
-    align-content: center;
+
 }
 
 #some .col3 {
     flex-basis: 200px;
     flex-grow: 1;
+
+
+    justify-content: center;
+    align-content: center;
 }
 
 .body2 {
