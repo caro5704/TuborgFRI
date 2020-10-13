@@ -148,25 +148,23 @@ h2 {
     color: #F2BC79;
     display: flex;
     flex-wrap: wrap;
+    background-color: #294375;
 }
 
 #statistik .col1 {
-    flex-grow: 1;
     flex-basis: 300px;
+    flex-grow: 1;
 }
 
-/*VIRKER IKKE*/
-#statistik .col1 img {
-    align-content: center;
+.col-forth {
+    display: flex;
+    align-items: center;
     justify-content: center;
+    margin-right: 50px;
 }
 
-#statistik .col1 .col-third {
-    margin-left: 300px;
-}
-
-#statistik .col1 .col-forth {
-    margin: 50px 100px 50px 0;
+.col-third {
+    margin-left: 50px;
 }
 
 /* SKÅÅL */
@@ -177,11 +175,6 @@ h2 {
 /* SOME */
 #some {
     background-color: #D4CFC9;
-    display: flex;
-    flex-wrap: wrap;
-
-
-
 }
 
 .some {
@@ -197,10 +190,6 @@ h2 {
 #some .col3 {
     flex-basis: 200px;
     flex-grow: 1;
-
-
-    justify-content: center;
-    align-content: center;
 }
 
 .body2 {
