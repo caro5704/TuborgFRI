@@ -73,6 +73,7 @@ h2 {
     flex-wrap: wrap;
 }
 
+/*
 .showcase:before {
     content: '';
     background: url('../img/landingpage/single.JPG') no-repeat center center/cover;
@@ -83,10 +84,21 @@ h2 {
     height: 100%;
     z-index: 0;
 }
+*/
+
+.svg-ol {
+    width: 3vw;
+}
+
+.showcase {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .showcase .showcase-inner {
-    position: absolute;
-
+    /*    position: absolute;*/
+    flex-basis: 300px;
+    flex-grow: 1;
     height: 100%;
     width: 40%
 }
@@ -101,10 +113,14 @@ h2 {
 
 /*
 .stopmotion {
-    position:absolute;
-    right: 0;
+    flex-basis: 300px;
+    flex-grow: 2;
+    position: absolute;
+    right: 3rem;
+    top: 0;
 }
 */
+
 
 .btn {
     display: inline-block;
@@ -124,7 +140,6 @@ h2 {
 /* KAMPAGNE */
 #kampagne {
     background-color: #294375;
-    ;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -138,10 +153,14 @@ h2 {
 #kampagne .col-first {
     background-color: #F2BC79;
     margin: 50px 0 50px 50px;
+    padding: 20px;
 }
 
-#kampagne .col-second img {
+#kampagne .col-second {
+    flex-grow: 1;
+    flex-basis: 500px;
     width: 20%;
+    margin: 50px 250px 50px 0px;
 }
 
 /* STATISTIK */
@@ -155,6 +174,7 @@ h2 {
 #statistik .col1 {
     flex-basis: 300px;
     flex-grow: 1;
+    margin-bottom: 50px;
 }
 
 .col-forth {
@@ -171,6 +191,19 @@ h2 {
 /* SKÅÅL */
 #skaal {
     background-color: #90BEB1;
+}
+
+#skaal img {
+    width: 100%;
+}
+
+#skaal h1 {
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    transform: translateX(9)
 }
 
 /* SOME */
