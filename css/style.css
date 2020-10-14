@@ -207,10 +207,24 @@ h2 {
     text-align: center;
 }
 
+#skaal .photo1 {
+    display: block;
+
+}
+
+#skaal .photo2 {
+    display: none;
+}
+
 button {
     position: absolute;
-    transform: translateX(9)
+    transform: translateX(9);
+    font-family: gelo, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.3rem;
 }
+
 
 /* SOME */
 #some {
