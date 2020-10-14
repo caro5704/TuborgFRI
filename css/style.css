@@ -23,6 +23,7 @@ h2 {
     font-family: gelo, serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 2.3rem;
 }
 
 /* TRAIL LANDINGPAGE */
@@ -131,6 +132,10 @@ h2 {
     margin-top: 1rem;
     text-decoration: none;
     transition: opacity 0.5s ease-in;
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .btn:hover {
