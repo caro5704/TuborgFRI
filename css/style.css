@@ -200,6 +200,7 @@ h2 {
     background-color: #294375;
     display: flex;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 #portfolio .col4 {
